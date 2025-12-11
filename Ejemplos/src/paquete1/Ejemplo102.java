@@ -33,7 +33,8 @@ public class Ejemplo102 {
             // Luis o Ana
             nombre = estudiantes[i];
             if (nombre.equals("Luis")) {
-            
+            // esta condición nos permite que en el mensaje final solo
+            // salga el nombre que se establezca
                 mensajeFinal = String.format("%sEstudiante:%s - promedio: "
                         + "%.4f\n", 
                         mensajeFinal,
